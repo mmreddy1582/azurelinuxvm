@@ -34,7 +34,7 @@ module "linuxservers" {
     costcenter  = "it"
   }
 
-  enable_accelerated_networking = true
+  enable_accelerated_networking = false
 }
 
 output "linux_vm_private_ips" {
