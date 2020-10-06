@@ -5,7 +5,7 @@ data "azurerm_subnet" "example" {
 }
 
 data "azurerm_image" "redhat" {
-  name                = "ubunutimage-image-20200930115340"
+  name                = "ubuntu-image-20201005230601"
   resource_group_name = "murapoc-images-rg"
 
 }
