@@ -26,7 +26,7 @@ module "linuxservers" {
   data_disk_size_gb             = 64
   data_sa_type                  = "Premium_LRS"
   enable_ssh_key                = true
-  vm_size                       = "Standard_D4s_v3"
+  vm_size                       = "Standard_D2s_v3"
   vm_ipaddress                  = "10.1.0.6"
   
   tags = {
