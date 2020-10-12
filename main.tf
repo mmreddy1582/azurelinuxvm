@@ -10,7 +10,7 @@ resource "azurerm_resource_group" "example" {
 module "linuxservers" {
   source                        = "./terraform-azurerm-compute"
   resource_group_name           = azurerm_resource_group.example.name
-  vm_hostname                   = "sgazmuraapp"
+  vm_hostname                   = "sgazmuraappvm"
   nb_public_ip                  = 1
   remote_port                   = "22"
   nb_instances                  = 1
