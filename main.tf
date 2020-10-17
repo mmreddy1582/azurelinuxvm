@@ -4,7 +4,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "example" {
-  name     = "murapoc-rg1"
+  name     = "murapoc-rg2"
   location = "Southeast Asia"
 }
 
