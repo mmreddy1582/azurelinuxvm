@@ -161,4 +161,5 @@ resource "azurerm_network_interface_security_group_association" "test" {
   count                     = var.nb_instances
   network_interface_id      = azurerm_network_interface.vm[count.index].id
   network_security_group_id = azurerm_network_security_group.vm.id
+  
 }
